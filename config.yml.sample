@@ -1,0 +1,17 @@
+---
+# if slack_notification is not set or set to False/false, it will fallback to STDOUT
+slack_notification: false
+
+# required if slack_notification is set to True/true
+slack_webhook: 'https://hooks.slack.com/services/Txxxxxxxx/Bxxxxxxxxxx/0987654321abcdef09876543'
+
+# template for holding required cookie fields
+cookie_template: "uev2.loc=%7B%22address%22%3A%7B%22eaterFormattedAddress%22%3A%22{}%22%7D%7D;"
+
+# tell me where you are? required
+# be sure to include "Administrative District"
+from_location: '台北市中正區凱達格蘭大道'
+
+# the store uuid in list
+store_uuid_list:
+- "66818d65-c8ce-4feb-b6d9-f006458655a4" # 來福記豆漿
